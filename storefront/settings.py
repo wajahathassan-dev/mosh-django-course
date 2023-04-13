@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'django.contrib.admin',
+    'django.contrib.sessions',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.messages',
@@ -39,8 +40,10 @@ INSTALLED_APPS = [
     'playground',
     'debug_toolbar',
     'store',
+    'store_custom',
     'tags',
-    'likes'
+    'likes',
+    
 ]
 
 MIDDLEWARE = [
